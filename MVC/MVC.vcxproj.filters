@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f40bc5d0-953c-4192-bd4f-af9c8a8d8055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{5c89cbcc-28b8-42fa-99eb-d43d092dd79e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MVC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Weather.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WetherModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Weather.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherView.h">
+      <Filter>View</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
