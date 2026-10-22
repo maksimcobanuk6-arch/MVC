@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="MVC.cpp" />
     <ClCompile Include="Weather.cpp" />
+    <ClCompile Include="WeatherController.cpp" />
     <ClCompile Include="WeatherView.cpp" />
     <ClCompile Include="WetherModel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Weather.h" />
+    <ClInclude Include="WeatherController.h" />
     <ClInclude Include="WeatherModel.h" />
     <ClInclude Include="WeatherView.h" />
   </ItemGroup>
