@@ -139,7 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MVC.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherController.cpp" />
     <ClCompile Include="WeatherView.cpp" />
